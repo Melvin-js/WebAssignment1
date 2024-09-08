@@ -1,0 +1,202 @@
+.profile img{
+    height: 200px;
+    width: 200px;
+    padding-top: 25px;
+    border-radius: 50%; 
+    object-fit: cover;
+    padding-left: 40px;
+}
+
+
+button {
+    background-color: rgb(218, 157, 60); 
+     color: white; 
+     padding: 10px 40px; 
+     border: none; 
+     border-radius: 10px; 
+     font-size: 16px; 
+     cursor: pointer; 
+     transition: background-color 0.3s ease;
+     position: relative;
+     bottom: 30px;
+     top: 1px;
+     left: 85px;
+   }
+body{
+    background-color: white;
+}
+.main {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 20px;
+    
+}
+
+.name{
+    color:black;
+  
+}
+.name h1{
+padding-left: 20px;
+padding-bottom: 0%;
+}
+
+.name h3{
+    padding-left: 95px;
+}
+
+.about{
+   
+    height:270px ;
+    width:250px ;
+    background-color: rgb(238, 204, 178);
+    border-radius: 10px;
+    margin-left: 25px;
+    
+   
+}
+.about p{
+    text-align: justify;
+    padding: 16px;
+}
+.profile{
+     background-color: rgb(244, 238, 227);
+     height: 700px;
+     width: 300px;
+     border-radius: 10px;
+     margin-left: 20px; 
+     margin-top: 5px;
+     display: inline-block;
+}
+
+.strength{
+    background-color: rgb(244, 238, 227);
+    height: 250px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.strength h2{
+    padding-left: 20px;
+}
+
+.hobbies{
+    background-color: rgb(244, 238, 227);
+    height: 430px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10x;
+    border-radius: 10px;
+}
+.col2{
+    flex-direction: column;
+}
+.col2 h2{
+    padding-left: 20px;
+    
+}
+
+audio{
+    padding-top: 10px;
+     
+}
+iframe{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.dreams{
+    background-color: rgb(244, 238, 227);
+    height: 310px;
+    width: 700px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.dreams table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.dreams table, 
+.dreams th, 
+.dreams td {
+    border: 1px solid rgb(218, 157, 60);  
+    padding: 8px;
+    text-align: left;
+}
+.dreams th {
+    background-color: rgb(238, 204, 178);
+    font-weight: bold; 
+}
+
+.dreams h2{
+    padding-top: 4px;
+}
+
+.contact{
+    background-color: rgb(244, 238, 227);
+    height: 150px;
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.col3{
+    padding-right: 20px;
+}
+
+.contact h2{
+    padding-top: 20px;
+}
+
+.contact img{
+    height: 60px;
+    width: 60px;
+    padding-left: 45px;
+}
+.quotes{
+    background-color: rgb(244, 238, 227);
+    height: 200px;
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 6px;
+    border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.quotes h2{
+    padding-top: 15px;
+}
+
+.quotecolour{
+    background-color:  rgb(238, 204, 178);
+    height: 120px;
+    width: 660px;
+    border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 25px;
+}
+
+#pp{
+    padding-top: 10px;
+}
+
+.quotecolour p{
+    padding-left: 300px;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Melvin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="profile">
+            <a href="https://www.linkedin.com/in/melvinjoseph/"><img id="profile-pic" src="images/melvinpic.jpeg"
+                    alt="Melvin Joseph Siby"></a>
+            <script>
+                const profilePic = document.getElementById('profile-pic');
+
+
+                profilePic.addEventListener('mouseover', function () {
+                    document.body.style.backgroundColor = 'orange';
+                });
+
+                profilePic.addEventListener('mouseout', function () {
+                    document.body.style.backgroundColor = 'white';
+                });
+            </script>
+            <div class="name">
+                <h1>Melvin Joseph Siby</h1>
+                <h3>UI Designer</h3>
+            </div>
+
+            <button onclick="welcome()">Hello!</button><br>
+            <script>
+                function welcome() {
+                    alert("Welcome to my Webpage!")
+                }
+            </script>
+            <div class="about">
+                <p>
+                    "I am a final-year B.Tech Computer Science student at Mar Baselios College of Engineering and
+                    Technology. I have a deep passion for designing, blending creativity and functionality to craft
+                    visually appealing and user-friendly digital experiences. With a strong focus on innovative
+                    solutions, I’m constantly exploring new ways to enhance user interactions through design."</p>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="strength">
+
+
+                <h2>Strengths</h2>
+                <ul>
+                    <table>
+                        <tr>
+                            <td>
+                                <li>I have a strong passion for front-end development.</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>I am a quick learner.</li>
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+
+                <h2>Weaknesses</h2>
+                <ul>
+                    <table>
+                        <tr>
+                            <td>
+                                <li>I'm a perfectionist.</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>I am still working on my time management skills.</li>
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+
+            </div><br>
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <ul>
+                    <table>
+                        <tr>
+                            <td>
+                                <li>Designing</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>Listening to music</li><audio controls>
+                                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                                        type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>Watching Movie</li><iframe width="300" height="180"
+                                    src="https://www.youtube.com/embed/gRqY1nxGGE4?si=-iDMiwYHpuvbOeyg"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </td>
+                        </tr>
+                    </table>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col3">
+            <div class="dreams">
+                <h2>Bucket List</h2>
+                <table border="1">
+                    <tr>
+                        <th>Serial No</th>
+                        <th>Item</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Sky Diving</td>
+                        <td>Not done yet</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Scuba Diving</td>
+                        <td>Not done yet</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>River Rafting</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Learn Swimming</td>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Learn Driving</td>
+                        <td>Completed</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="quotes">
+                <h2>Favorite Quotes</h2>
+                <div class="quotecolour">
+                    <p id="pp">
+                        <center>“Stay away from those people who try to disparage your ambitions. Small minds will
+                            always do that, but great minds will give you a feeling that you can become great too.”
+                        </center>
+                    </p>
+                    <p>-Mark Twai</p>
+                </div>
+
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <a href="https://github.com/Melvin-js"><img src="images/github.png"></a>
+                <a href="mailto:melvinjs404@gmail.com"><img src="images/gmail.png"></a>
+
+                <a href="https://www.linkedin.com/in/melvinjoseph/"><img src="images/linkedin.png"></a>
+                <img src="images/telephone.png" onclick="redirectCall()">
+                <script>
+                    function redirectCall() {
+                        window.location.href = "tel:+91 8075161246";
+                    }
+                </script>
+                <a href="https://www.instagram.com/melvin_js/"> <img src="images/instagram.png"></a>
+                <a href=""> <img src="images/twitter.png"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
